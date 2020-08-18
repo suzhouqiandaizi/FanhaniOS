@@ -1,0 +1,162 @@
+/* 
+  Localizable.strings
+  FanhaniOS
+
+  Created by WangZhenyu on 2020/7/29.
+  Copyright © 2020 WangZhenyu. All rights reserved.
+*/
+"companyName" = "泛函科技";
+"nameTextFieldPlaceholder" = "用户名/邮箱";
+"passwordTextFieldPlaceholder" = "密码";
+"otherLoginButton" = "其他登录方式";
+"forgetPasswordButton" = "忘记密码";
+"registerButton" = "用户注册";
+"cancelButton" = "取消";
+"phoneLoginType" = "手机号登录";
+"wechatLoginType" = "微信登录";
+"phoneRegisterType" = "手机号注册";
+"emailRegisterType" = "邮箱注册";
+"pleaseInputYourPhonenumber" = "请输入您的手机号";
+"pleaseInputYourEmail" = "请输入您的邮箱";
+"pleaseInputYourNameAndPassword" = "请输入用户名和密码";
+"phoneNumber" = "手机号";
+"emailInfo" = "邮箱";
+"usernameInfo" = "用户名";
+"verificationCode" = "验证码";
+"sendVerificationCode" = "获取验证码";
+"nextButton" = "下一步";
+"againSendCode" = "重新发送";
+"gettingCode" = "正在获取";
+"setNewPassword" = "请输入新密码";
+"setNewPasswordTextFieldPlaceholder" = "6位以上，包含数字和英文";
+"setPasswordTextFieldPlaceholder" = "设置密码，6位以上，包含数字和英文";
+"usernameConstraint" = "用户名须以字母开头，且只能包含字母、数字、横线及下划线";
+"setNewAgainPasswordTextFieldPlaceholder" = "确认密码";
+"resetPasswordButton" = "重置密码";
+"alertInputPhone" = "请输入手机号";
+"alertInputCode" = "请输入验证码";
+"pleaseInputCode" = "请输入验证码";
+"alertInputNewPassword" = "请输入新密码";
+"alertInputAgainPassword" = "请再次输入新密码";
+"alertInputPasswordError" = "请设置6位以上密码";
+"alertInputAgainPasswordError" = "密码输入不一致";
+"alertUsernameLengthError" = "用户名在5-30位字符之间";
+"alertLoading" = "请稍候";
+"alertSuccess" = "修改成功";
+"alertRegisterSuccess" = "注册成功";
+"alertRefreshSuccess" = " 刷新成功";
+"alertRefuseBtn" = "拒绝";
+"alertAgreeBtn" = "同意";
+"alertInfoTitle" = "提示";
+"alertExit" = "退出";
+"alertLogout" = "是否要退出当前账号？";
+"alertInstallWechatError" = "未安装微信，无法分享";
+"alertShareSuccess" = "分享成功";
+"alertShareFail" = "分享失败";
+"loginButton" = "登录";
+"welcomeInfo" = "欢迎";
+"userServiceAgreemnetAndPrivacyPolicy" = "我同意 服务协议 与 隐私政策";
+"userServiceAgreemnetAndPrivacyPolicyTitle" = "服务协议和隐私政策提示";
+"userServiceAgreemnetAndPrivacyPolicyContent" =
+"亲爱的泛函用户
+感谢您使用泛函沃客APP！我们非常重视您的个人信息和隐私安全。为了更好地保障您的个人权益，请您充分阅读并理解 服务协议 与 隐私政策 全部内容，同意并接受所有条款后开始使用我们的产品。";
+"alertShowAgreeServiceAgreemnetAndPrivacyPolicy" = "请先阅读并同意服务协议与隐私政策";
+"agreeAgreemnetButton" = "同意协议并注册";
+"wechatRegisterBind" = "请注册账号并绑定";
+"hasAccountAndBind" = "已有账号？直接绑定";
+"noAccountAndBind" = "没有账号？前去注册";
+"bindUsername" = "请绑定您的账号";
+"bindInfo" = "绑定";
+"tabBarHome" = "首页";
+"tabBarProgress" = "进度";
+"tabBarPerson" = "我的";
+"headerAllButton" = "全部";
+"headerVideoButton" = "视频";
+"headerImageButton" = "图片";
+"headerZhuanXieButton" = "转写";
+"headerTextButton" = "文字";
+"headerVoiceButton" = "语音";
+"headerHunheButton" = "混合";
+"headerXinshouButton" = "新手";
+"headerTuijianLabel" = "推荐任务";
+"taskTitle" = "任务";
+"messageTitle" = "消息中心";
+"taskClassificationText" = "文本任务";
+"taskClassificationVideo" = "视频任务";
+"taskClassificationImage" = "图片任务";
+"taskClassificationTransfer" = "转写任务";
+"taskClassificationVoice" = "语音任务";
+"taskClassificationMix" = "混合任务";
+"taskClassificationNew" = "新手任务";
+"taskClassificationInfo" = "分类";
+"taskClassificationPermission" = "权限";
+"taskClassificationHasPermission" = "有权限";
+"taskClassificationNOPermission" = "无权限";
+"publishTitle" = "日期";
+"taskClassificationAll" = "全部";
+"personMedalBtn" = "查看勋章";
+"personAuthenticationBtn" = "实名认证 ";
+"personCoinSurplusTitle" = "剩余泛函币";
+"personCoinTotal" = "累计收入：";
+"personCoinConversion" = "100泛函币=1RMB";
+"personCoinWithdrawal" = " 提现";
+"personCoinBill" = " 账单";
+"personCoinDetailed" = " 明细";
+"personMenuSetting" = "账号设置";
+"personMenuAboutOur" = "关于我们";
+"personMenuNoiseDetection" = "检测噪音";
+"personMenuFeedback" = "意见反馈";
+"personMenuCustomerService" = "我的客服";
+"personMenuLogout" = "退出登录";
+"settingAppVersion" = "软件版本";
+"settingServiceAgreemnet" = "服务协议";
+"settingPrivacyPolicy" = "隐私政策";
+"shareParticipationSteps" = "参与步骤";
+"shareInviteFriends" = "邀请好友";
+"shareSignUpAndComplete" = "好友注册并完成任务";
+"shareGetAllRewards" = "获取
+全部奖励";
+"shareInviteButton" = "立即邀请";
+"shareRules" = "活动规则：";
+"shareRulesContent" = "1、新用户通过链接下载APP即可与邀请者绑定。
+2、新用户注册可得50泛函币，邀请者可得50泛函币；新用户第一次参与项目并且通过，邀请者可再获得50泛函币。
+3、每个用户邀请好友的上限为15人，超过15人，将不再获得奖励，被邀请的用户仍可获得奖励。";
+"shareAlertTitle" = "邀请您的好友，一起赚！";
+"shareAlertQQButton" = "QQ好友";
+"shareAlertWxButton" = "微信好友";
+"shareAlertSessionButton" = "朋友圈";
+"shareAlertMoreButton" = "更多";
+"newbieGuide" = "新手指导";
+"newbieFirstFinishTask" = "首次完成任务";
+"newbieAuthentication" = "实名认证";
+"newbieBindPhone" = "绑定手机号";
+"newbieBindEmail" = "绑定邮箱";
+"newbieBindWeChat" = "绑定微信";
+"newbieImprovePersonalInformation" = "完善个人信息";
+"newbieCoin" = "泛函币";
+"newbieDoneButton" = "去完成";
+"newbieFinisButton" = "已完成";
+"newbieRewardButton" = "领奖励";
+"newbieRuleContent" = "1、用户下载注册后，第一次审核通过的任务可额外获得任务收入*10的泛函币奖励。
+2、用户完成实名认证，可获得5泛函币奖励。
+3、用户首次绑定手机号，可获得15泛函币奖励。
+4、用户首次绑定邮箱，可获得15泛函币奖励。
+5、用户首次绑定微信，可获得15泛函币奖励。
+6、用户邀请好友注册并完成任务，可获得100泛函币奖励，详细规则请参考\"邀请好友，一起来赚零花钱\"。";
+"coinDetailed" = "明细";
+"daySignTitle" = "每日签到";
+"daySignContinuousSignin" = "连续签到";
+"daySignReceived" = "今日已领";
+"daySignRule" = "签到规则 ";
+"daySignButton" = "签到";
+"daySignDoneButton" = "已签到";
+"alertClose" = "关闭";
+"daySignRuleContent" = "1、连续签到，7天为一周期；
+2、如签到中断，将按照新一周期重新开始；
+3、1泛函币=1积分，本活动和设备生产商无关。";
+"daySignDay" = "天";
+"daySignCoin" = "个";
+"daySignToday" = "今日";
+"jumpButton" = "跳过";
+"StartExperiencingButton" = "开始体验";
+"joinUsTitle" = "加入我们";

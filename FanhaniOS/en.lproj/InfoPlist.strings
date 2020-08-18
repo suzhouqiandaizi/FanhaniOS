@@ -1,0 +1,19 @@
+/* 
+  InfoPlist.strings
+  FanhaniOS
+
+  Created by WangZhenyu on 2020/7/23.
+  Copyright © 2020 WangZhenyu. All rights reserved.
+*/
+"CFBundleDisplayName" = "Fun Work";
+"NSAppleMusicUsageDescription" = "Can I use the music please?";
+"NSCalendarsUsageDescription" = "Can I use the calendar please?";
+"NSCameraUsageDescription" = "Can I use the camera please to take photos upload?";
+"NSContactsUsageDescription" = "Can I use the contacts please?";
+"NSLocationAlwaysUsageDescription" = "Can I use your please?";
+"NSLocationWhenInUseUsageDescription" = "Can I use your location please?";
+"NSMicrophoneUsageDescription" = "This sample uses the microphone to record your speech and convert it to text.";
+"NSMotionUsageDescription" = "Can I use the motion please?";
+"NSPhotoLibraryUsageDescription" = "Can I use the PhotoLibrary please to select image upload?";
+"NSSpeechRecognitionUsageDescription" = "Can I use the speech recognition please?";
+

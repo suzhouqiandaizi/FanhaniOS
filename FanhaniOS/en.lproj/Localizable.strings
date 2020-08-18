@@ -1,0 +1,161 @@
+/* 
+  Localizable.strings
+  FanhaniOS
+
+  Created by WangZhenyu on 2020/7/29.
+  Copyright © 2020 WangZhenyu. All rights reserved.
+*/
+"companyName" = "Fanhan Tech";
+"nameTextFieldPlaceholder" = "Username/Email";
+"passwordTextFieldPlaceholder" = "Password";
+"otherLoginButton" = "other login methods";
+"forgetPasswordButton" = "Forget password";
+"registerButton" = "Register";
+"cancelButton" = "cancel";
+"phoneLoginType" = "login with phonenumber";
+"wechatLoginType" = "login with wechat";
+"phoneRegisterType" = "phone register";
+"emailRegisterType" = "email register";
+"pleaseInputYourPhonenumber" = "Please enter your phonenumber";
+"pleaseInputCode" = "Please input verification code";
+"pleaseInputYourNameAndPassword" = "Please enter your user name and password";
+"phoneNumber" = "Phone number";
+"emailInfo" = "email";
+"usernameInfo" = "user name";
+"verificationCode" = "Verification code";
+"sendVerificationCode" = "Send code";
+"nextButton" = "next";
+"againSendCode" = "again send";
+"gettingCode" = "getting code";
+"setNewPassword" = "please input new password";
+"setNewPasswordTextFieldPlaceholder" = "more than 6 digits, including numbers and letters";
+"setPasswordTextFieldPlaceholder" = "set password, more than 6 digits, including numbers and letters";
+"usernameConstraint" = "Username shall start with a letter and can only include letter, number, transverse line and underline";
+"setNewAgainPasswordTextFieldPlaceholder" = "confirm password";
+"resetPasswordButton" = "reset password";
+"alertInputPhone" = "please input phonenumber";
+"pleaseInputYourEmail" = "please input email";
+"alertInputCode" = "please input verification code";
+"alertInputNewPassword" = "please input new password";
+"alertInputAgainPassword" = "please again input new password";
+"alertInputAgainPasswordError" = "password input is inconsistent";
+"alertUsernameLengthError" = "username length is between 5-30 characters";
+"alertInputPasswordError" = "please set password with more than 6 digits";
+"alertLoading" = "loading";
+"alertSuccess" = "succeeded";
+"alertRegisterSuccess" = "succeeded";
+"alertRefreshSuccess" = " refresh succeeded";
+"alertRefuseBtn" = "refuse";
+"alertAgreeBtn" = "agree";
+"alertInfoTitle" = "tips";
+"alertLogout" = "Do you want to exit the current account?";
+"alertExit" = "exit";
+"alertInstallWechatError" = "Wechat not installed, unable to share";
+"alertShareSuccess" = "share success";
+"alertShareFail" = "failed to share";
+"loginButton" = "login";
+"welcomeInfo" = "Welcome";
+"userServiceAgreemnetAndPrivacyPolicy" = "I agree service agreement and privacy policy";
+"userServiceAgreemnetAndPrivacyPolicyTitle" = "Service agreement and privacy policy tips";
+"userServiceAgreemnetAndPrivacyPolicyContent" =
+"Dear fanhan users
+Thank you for using the funwork app! We attach great importance to your personal information and privacy. In order to better protect your personal rights and interests, please fully read and understand all the contents of the service agreement and privacy policy, agree to and accept all the terms before using our products.";
+"alertShowAgreeServiceAgreemnetAndPrivacyPolicy" = "please read and agree to the service agreement and privacy policy first";
+"agreeAgreemnetButton" = "agreement and registration";
+"wechatRegisterBind" = "Please register your account and bind it";
+"hasAccountAndBind" = "Already have an account? Bind directly";
+"noAccountAndBind" = "No account? Go register";
+"bindUsername" = "Please bind your account";
+"bindInfo" = "bind";
+"tabBarHome" = "home";
+"tabBarProgress" = "progress";
+"tabBarPerson" = "person";
+"headerAllButton" = "all";
+"headerVideoButton" = "video";
+"headerImageButton" = "image";
+"headerZhuanXieButton" = "transfer";
+"headerTextButton" = "text";
+"headerVoiceButton" = "voice";
+"headerHunheButton" = "mix";
+"headerXinshouButton" = "novice";
+"headerTuijianLabel" = "Recommended tasks";
+"taskTitle" = "Task";
+"messageTitle" = "Message";
+"taskClassificationText" = "text task";
+"taskClassificationVideo" = "video task";
+"taskClassificationImage" = "image task";
+"taskClassificationTransfer" = "transfer task";
+"taskClassificationVoice" = "voice task";
+"taskClassificationMix" = "mix task";
+"taskClassificationNew" = "novice task";
+"taskClassificationPermission" = "permission";
+"taskClassificationInfo" = "classification";
+"taskClassificationHasPermission" = "has permission";
+"taskClassificationNOPermission" = "no permission";
+"publishTitle" = "publish";
+"taskClassificationAll" = "all";
+"personMedalBtn" = "show medal";
+"personAuthenticationBtn" = "authentication ";
+"personCoinSurplusTitle" = "surplus coin";
+"personCoinTotal" = "total income: ";
+"personCoinConversion" = "100 coin = 1RMB";
+"personCoinWithdrawal" = " Withdrawal";
+"personCoinBill" = " Bill";
+"personCoinDetailed" = " Detailed";
+"personMenuSetting" = "Setting";
+"personMenuAboutOur" = "About our";
+"personMenuNoiseDetection" = "Noise detection";
+"personMenuFeedback" = "Feedback";
+"personMenuCustomerService" = "Customer service";
+"personMenuLogout" = "Logout";
+"settingAppVersion" = "App version";
+"settingServiceAgreemnet" = "Service agreemnet";
+"settingPrivacyPolicy" = "Privacy policy";
+"shareParticipationSteps" = "Participation Steps";
+"shareInviteFriends" = "Invite friends";
+"shareSignUpAndComplete" = "Sign up and complete";
+"shareGetAllRewards" = "Get all rewards";
+"shareInviteButton" = "Invite";
+"shareRules" = "Rules:";
+"shareRulesContent" = "1. New users can bind with the invitees by downloading the app through the link.
+2. 50 coins can be obtained by inviting users for the first time.
+3. The maximum number of friends invited by each user is 15. If more than 15 friends are invited, no reward will be given, and the invited users can still get rewards.";
+"shareAlertTitle" = "Invite your friends to make money together!";
+"shareAlertQQButton" = "QQ";
+"shareAlertWxButton" = "Wechat";
+"shareAlertSessionButton" = "Wechat";
+"shareAlertMoreButton" = "More";
+"newbieGuide" = "Guide";
+"newbieAuthentication" = "Authentication";
+"newbieFirstFinishTask" = "First task";
+"newbieFinisButton" = "Finis";
+"newbieRewardButton" = "Reward";
+"newbieBindPhone" = "Bind phone";
+"newbieBindEmail" = "Bind email";
+"newbieBindWeChat" = "Bind wechat";
+"newbieImprovePersonalInformation" = "Improve info";
+"newbieCoin" = "Coin";
+"newbieDoneButton" = "Go";
+"newbieRuleContent" = "1. After users download and register, the tasks approved for the first time can get additional coin reward of task income * 10.
+2. Users who complete real name authentication can get 5 coin rewards.
+3. Users who bind their mobile phone number for the first time can get 15 coin rewards.
+4. Users who bind email for the first time can get 15 coin rewards.
+5. Users who bind wechat for the first time can get 15 coin rewards.
+6. Users who invite friends to register and complete tasks can get 100 functional currency rewards. For detailed rules, please refer to \"inviting friends to make pocket money together\".";
+"coinDetailed" = "Detailed";
+"daySignTitle" = "Daily sign in";
+"daySignContinuousSignin" = "Continuous";
+"daySignReceived" = "Received";
+"daySignRule" = "sign rules ";
+"daySignButton" = "Sign in";
+"daySignDoneButton" = "Signed in";
+"alertClose" = "close";
+"daySignRuleContent" = "1. Continuous check-in, 7 days as a cycle.
+2. If the check-in is interrupted, it will start again according to the new cycle.
+3. 1 coin = 1 point, this activity has nothing to do with the equipment manufacturer.";
+"daySignDay" = "day";
+"daySignCoin" = "num";
+"daySignToday" = "Today";
+"jumpButton" = "jump";
+"StartExperiencingButton" = "experiencing";
+"joinUsTitle" = "Join Us";

@@ -1,0 +1,302 @@
+PODS:
+  - audio_recorder2 (0.0.1):
+    - Flutter
+  - audioplayers (0.0.1):
+    - Flutter
+  - device_info (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_audio_recorder (0.5.4):
+    - Flutter
+  - flutter_full_pdf_viewer (1.0.1):
+    - Flutter
+  - flutter_inappwebview (0.0.1):
+    - Flutter
+  - flutter_mailer (0.0.1):
+    - Flutter
+  - flutter_module (0.0.1):
+    - Flutter
+  - flutter_plugin_android_lifecycle (0.0.1):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - HappyDNS (0.3.17)
+  - image_cropper (0.0.2):
+    - Flutter
+    - TOCropViewController (~> 2.5.2)
+  - image_picker (0.0.1):
+    - Flutter
+  - lcfarm_flutter_umeng (0.0.1):
+    - Flutter
+    - UMCCommon (~> 7.1.0)
+  - libOpenInstallSDK (2.4.0)
+  - mob_pushsdk (3.0.1):
+    - mob_pushsdk/MobPush (= 3.0.1)
+    - MOBFoundation
+  - mob_pushsdk/MobPush (3.0.1):
+    - MOBFoundation
+  - mob_sharesdk (4.3.9.1):
+    - mob_sharesdk/ShareSDK (= 4.3.9.1)
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDK (4.3.9.1):
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKExtension (4.3.9.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.3.9.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKPlatforms/WeChat_Lite (4.3.9.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKUI (4.3.9.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - MOBFoundation (3.2.17)
+  - mobpush_plugin (1.0.7):
+    - Flutter
+    - mob_pushsdk
+  - native_pdf_renderer (1.0.0):
+    - Flutter
+  - openinstall_flutter_plugin (0.0.1):
+    - Flutter
+    - libOpenInstallSDK
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - path_provider_linux (0.0.1):
+    - Flutter
+  - path_provider_macos (0.0.1):
+    - Flutter
+  - "permission_handler (5.0.1+1)":
+    - Flutter
+  - Qiniu (7.4.2):
+    - HappyDNS (~> 0.3.17)
+  - share (0.0.1):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+  - shared_preferences_linux (0.0.1):
+    - Flutter
+  - shared_preferences_macos (0.0.1):
+    - Flutter
+  - shared_preferences_web (0.0.1):
+    - Flutter
+  - sharesdk_plugin (1.1.0):
+    - Flutter
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKExtension
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/WeChat_Lite
+    - mob_sharesdk/ShareSDKUI
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
+  - sy_flutter_qiniu_storage (0.0.1):
+    - Flutter
+    - Qiniu
+  - TOCropViewController (2.5.4)
+  - UMCCommon (7.1.1)
+  - url_launcher (0.0.1):
+    - Flutter
+  - url_launcher_linux (0.0.1):
+    - Flutter
+  - url_launcher_macos (0.0.1):
+    - Flutter
+  - url_launcher_web (0.0.1):
+    - Flutter
+  - video_player (0.0.1):
+    - Flutter
+  - video_player_web (0.0.1):
+    - Flutter
+  - wakelock (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - audio_recorder2 (from `../fanhandata_flutter/ios/Flutter/.symlinks/audio_recorder2/ios`)
+  - audioplayers (from `../fanhandata_flutter/ios/Flutter/.symlinks/audioplayers/ios`)
+  - device_info (from `../fanhandata_flutter/ios/Flutter/.symlinks/device_info/ios`)
+  - Flutter (from `../fanhandata_flutter/ios/Flutter/engine`)
+  - flutter_audio_recorder (from `../fanhandata_flutter/ios/Flutter/.symlinks/flutter_audio_recorder/ios`)
+  - flutter_full_pdf_viewer (from `../fanhandata_flutter/ios/Flutter/.symlinks/flutter_full_pdf_viewer/ios`)
+  - flutter_inappwebview (from `../fanhandata_flutter/ios/Flutter/.symlinks/flutter_inappwebview/ios`)
+  - flutter_mailer (from `../fanhandata_flutter/ios/Flutter/.symlinks/flutter_mailer/ios`)
+  - flutter_module (from `../fanhandata_flutter/ios/Flutter`)
+  - flutter_plugin_android_lifecycle (from `../fanhandata_flutter/ios/Flutter/.symlinks/flutter_plugin_android_lifecycle/ios`)
+  - FlutterPluginRegistrant (from `../fanhandata_flutter/ios/Flutter/FlutterPluginRegistrant`)
+  - fluttertoast (from `../fanhandata_flutter/ios/Flutter/.symlinks/fluttertoast/ios`)
+  - image_cropper (from `../fanhandata_flutter/ios/Flutter/.symlinks/image_cropper/ios`)
+  - image_picker (from `../fanhandata_flutter/ios/Flutter/.symlinks/image_picker/ios`)
+  - lcfarm_flutter_umeng (from `../fanhandata_flutter/ios/Flutter/.symlinks/lcfarm_flutter_umeng/ios`)
+  - mobpush_plugin (from `../fanhandata_flutter/ios/Flutter/.symlinks/mobpush_plugin/ios`)
+  - native_pdf_renderer (from `../fanhandata_flutter/ios/Flutter/.symlinks/native_pdf_renderer/ios`)
+  - openinstall_flutter_plugin (from `../fanhandata_flutter/ios/Flutter/.symlinks/openinstall_flutter_plugin/ios`)
+  - package_info (from `../fanhandata_flutter/ios/Flutter/.symlinks/package_info/ios`)
+  - path_provider (from `../fanhandata_flutter/ios/Flutter/.symlinks/path_provider/ios`)
+  - path_provider_linux (from `../fanhandata_flutter/ios/Flutter/.symlinks/path_provider_linux/ios`)
+  - path_provider_macos (from `../fanhandata_flutter/ios/Flutter/.symlinks/path_provider_macos/ios`)
+  - permission_handler (from `../fanhandata_flutter/ios/Flutter/.symlinks/permission_handler/ios`)
+  - share (from `../fanhandata_flutter/ios/Flutter/.symlinks/share/ios`)
+  - shared_preferences (from `../fanhandata_flutter/ios/Flutter/.symlinks/shared_preferences/ios`)
+  - shared_preferences_linux (from `../fanhandata_flutter/ios/Flutter/.symlinks/shared_preferences_linux/ios`)
+  - shared_preferences_macos (from `../fanhandata_flutter/ios/Flutter/.symlinks/shared_preferences_macos/ios`)
+  - shared_preferences_web (from `../fanhandata_flutter/ios/Flutter/.symlinks/shared_preferences_web/ios`)
+  - sharesdk_plugin (from `../fanhandata_flutter/ios/Flutter/.symlinks/sharesdk_plugin/ios`)
+  - sqflite (from `../fanhandata_flutter/ios/Flutter/.symlinks/sqflite/ios`)
+  - sy_flutter_qiniu_storage (from `../fanhandata_flutter/ios/Flutter/.symlinks/sy_flutter_qiniu_storage/ios`)
+  - url_launcher (from `../fanhandata_flutter/ios/Flutter/.symlinks/url_launcher/ios`)
+  - url_launcher_linux (from `../fanhandata_flutter/ios/Flutter/.symlinks/url_launcher_linux/ios`)
+  - url_launcher_macos (from `../fanhandata_flutter/ios/Flutter/.symlinks/url_launcher_macos/ios`)
+  - url_launcher_web (from `../fanhandata_flutter/ios/Flutter/.symlinks/url_launcher_web/ios`)
+  - video_player (from `../fanhandata_flutter/ios/Flutter/.symlinks/video_player/ios`)
+  - video_player_web (from `../fanhandata_flutter/ios/Flutter/.symlinks/video_player_web/ios`)
+  - wakelock (from `../fanhandata_flutter/ios/Flutter/.symlinks/wakelock/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - HappyDNS
+    - libOpenInstallSDK
+    - mob_pushsdk
+    - mob_sharesdk
+    - MOBFoundation
+    - Qiniu
+    - TOCropViewController
+    - UMCCommon
+
+EXTERNAL SOURCES:
+  audio_recorder2:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/audio_recorder2/ios"
+  audioplayers:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/audioplayers/ios"
+  device_info:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/device_info/ios"
+  Flutter:
+    :path: "../fanhandata_flutter/ios/Flutter/engine"
+  flutter_audio_recorder:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/flutter_audio_recorder/ios"
+  flutter_full_pdf_viewer:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/flutter_full_pdf_viewer/ios"
+  flutter_inappwebview:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/flutter_inappwebview/ios"
+  flutter_mailer:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/flutter_mailer/ios"
+  flutter_module:
+    :path: "../fanhandata_flutter/ios/Flutter"
+  flutter_plugin_android_lifecycle:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/flutter_plugin_android_lifecycle/ios"
+  FlutterPluginRegistrant:
+    :path: "../fanhandata_flutter/ios/Flutter/FlutterPluginRegistrant"
+  fluttertoast:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/fluttertoast/ios"
+  image_cropper:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/image_cropper/ios"
+  image_picker:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/image_picker/ios"
+  lcfarm_flutter_umeng:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/lcfarm_flutter_umeng/ios"
+  mobpush_plugin:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/mobpush_plugin/ios"
+  native_pdf_renderer:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/native_pdf_renderer/ios"
+  openinstall_flutter_plugin:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/openinstall_flutter_plugin/ios"
+  package_info:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/package_info/ios"
+  path_provider:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/path_provider/ios"
+  path_provider_linux:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/path_provider_linux/ios"
+  path_provider_macos:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/path_provider_macos/ios"
+  permission_handler:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/permission_handler/ios"
+  share:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/share/ios"
+  shared_preferences:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/shared_preferences/ios"
+  shared_preferences_linux:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/shared_preferences_linux/ios"
+  shared_preferences_macos:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/shared_preferences_macos/ios"
+  shared_preferences_web:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/shared_preferences_web/ios"
+  sharesdk_plugin:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/sharesdk_plugin/ios"
+  sqflite:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/sqflite/ios"
+  sy_flutter_qiniu_storage:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/sy_flutter_qiniu_storage/ios"
+  url_launcher:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/url_launcher/ios"
+  url_launcher_linux:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/url_launcher_linux/ios"
+  url_launcher_macos:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/url_launcher_macos/ios"
+  url_launcher_web:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/url_launcher_web/ios"
+  video_player:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/video_player/ios"
+  video_player_web:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/video_player_web/ios"
+  wakelock:
+    :path: "../fanhandata_flutter/ios/Flutter/.symlinks/wakelock/ios"
+
+SPEC CHECKSUMS:
+  audio_recorder2: 0f571e18aba8fee95945350aab7b7175e6915f3f
+  audioplayers: 84f968cea3f2deab00ec4f8ff53358b3c0b3992c
+  device_info: d7d233b645a32c40dfdc212de5cf646ca482f175
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_audio_recorder: eb998d4e75e59b39d9e3ca1818a5e0f3a82f5836
+  flutter_full_pdf_viewer: 1b65139fc3236cde300ba6bea2a72669cb07f2e6
+  flutter_inappwebview: 69dfbac46157b336ffbec19ca6dfd4638c7bf189
+  flutter_mailer: 2ef5a67087bc8c6c4cefd04a178bf1ae2c94cd83
+  flutter_module: 37f078337caf8acad3074374a49bf81442fd3e07
+  flutter_plugin_android_lifecycle: dc0b544e129eebb77a6bfb1239d4d1c673a60a35
+  FlutterPluginRegistrant: d59dd07dd90e9c6430996073575a5bd1ea19677e
+  fluttertoast: 04b69130085962266a502e48126ab732402da919
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  HappyDNS: 848ef73e24f2b0e2752064223ce2dc0dd88900ea
+  image_cropper: 3c16d7651730ffe85897f5a1c4e2547e6b54989a
+  image_picker: 9c3312491f862b28d21ecd8fdf0ee14e601b3f09
+  lcfarm_flutter_umeng: bfcb0b0939a5c375dc2d68f02db64d6b7c2fc674
+  libOpenInstallSDK: 899cc7243599ccfd5d84384f27f4244d37b2b484
+  mob_pushsdk: 5f266bfce36dcfda9abf2651da898735cca7a725
+  mob_sharesdk: 954db91c66f5460bc57940ac3fb144cc0304b6a4
+  MOBFoundation: 37e2c100051fd710976b1f8d00643d28f31fcaca
+  mobpush_plugin: 7b5a56692c538bc06e0386916cf7b21f77c1eb09
+  native_pdf_renderer: fa374da660730abe059e7a178e79895dd202f007
+  openinstall_flutter_plugin: e6b8486f834eb60b336546442a8b747d4b664cf4
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  path_provider_linux: 4d630dc393e1f20364f3e3b4a2ff41d9674a84e4
+  path_provider_macos: f760a3c5b04357c380e2fddb6f9db6f3015897e0
+  permission_handler: eac8e15b4a1a3fba55b761d19f3f4e6b005d15b6
+  Qiniu: 0e2887592ffb0f23f86b920470d2301933d51f11
+  share: 0b2c3e82132f5888bccca3351c504d0003b3b410
+  shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
+  shared_preferences_linux: afefbfe8d921e207f01ede8b60373d9e3b566b78
+  shared_preferences_macos: f3f29b71ccbb56bf40c9dd6396c9acf15e214087
+  shared_preferences_web: 141cce0c3ed1a1c5bf2a0e44f52d31eeb66e5ea9
+  sharesdk_plugin: 3fb06e2660c15d463182b9f2cb9319967b13993e
+  sqflite: 4001a31ff81d210346b500c55b17f4d6c7589dd0
+  sy_flutter_qiniu_storage: 3a33fb552bb77f4777d261469111f52ad35307fb
+  TOCropViewController: 2a1ae1242600b1f2d996fd91a5268b2309a33b5c
+  UMCCommon: f455f92c125342e360d6ad9eafe484945351eeb5
+  url_launcher: 6fef411d543ceb26efce54b05a0a40bfd74cbbef
+  url_launcher_linux: ac237cb7a8058736e4aae38bdbcc748a4b394cc0
+  url_launcher_macos: fd7894421cd39320dce5f292fc99ea9270b2a313
+  url_launcher_web: e5527357f037c87560776e36436bf2b0288b965c
+  video_player: 9cc823b1d9da7e8427ee591e8438bfbcde500e6e
+  video_player_web: da8cadb8274ed4f8dbee8d7171b420dedd437ce7
+  wakelock: 0d4a70faf8950410735e3f61fb15d517c8a6efc4
+
+PODFILE CHECKSUM: 3d737c5a19e878a9e9cebab1ec098a169b46ffd5
+
+COCOAPODS: 1.9.3

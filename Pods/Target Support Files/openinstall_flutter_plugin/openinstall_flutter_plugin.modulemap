@@ -1,0 +1,6 @@
+framework module openinstall_flutter_plugin {
+  umbrella header "openinstall_flutter_plugin-umbrella.h"
+
+  export *
+  module * { export * }
+}

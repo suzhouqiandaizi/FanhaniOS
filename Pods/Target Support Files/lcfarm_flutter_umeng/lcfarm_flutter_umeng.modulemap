@@ -1,0 +1,6 @@
+framework module lcfarm_flutter_umeng {
+  umbrella header "lcfarm_flutter_umeng-umbrella.h"
+
+  export *
+  module * { export * }
+}

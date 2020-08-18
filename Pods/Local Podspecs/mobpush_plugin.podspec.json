@@ -1,0 +1,30 @@
+{
+  "name": "mobpush_plugin",
+  "version": "1.0.7",
+  "summary": "A new flutter plugin project.",
+  "description": "A new flutter plugin project.",
+  "homepage": "http://www.mob.com/mobService/mobpush",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Mob": "mobproducts@mob.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "mob_pushsdk": [
+
+    ]
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "8.0"
+  }
+}

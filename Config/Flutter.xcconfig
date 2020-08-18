@@ -1,0 +1,13 @@
+//
+//  Flutter.xcconfig
+//  FlutterMixTest
+//
+//  Created by WangZhenyu on 2020/7/21.
+//  Copyright © 2020 WangZhenyu. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../../fanhandata_flutter/ios/Flutter/Generated.xcconfig"
+ENABLE_BITCODE=NO

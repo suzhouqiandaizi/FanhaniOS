@@ -1,0 +1,18 @@
+/* 
+  InfoPlist.strings
+  FanhaniOS
+
+  Created by WangZhenyu on 2020/7/23.
+  Copyright © 2020 WangZhenyu. All rights reserved.
+*/
+"CFBundleDisplayName" = "泛函沃客";
+"NSAppleMusicUsageDescription" = "是否允许访问媒体资料库";
+"NSCalendarsUsageDescription" = "是否允许访问日历";
+"NSCameraUsageDescription" = "是否允许访问相机以便拍照图片";
+"NSContactsUsageDescription" = "是否允许访问通讯录";
+"NSLocationAlwaysUsageDescription" = "是否允许定位您当前的位置";
+"NSLocationWhenInUseUsageDescription" = "是否允许定位您当前的位置";
+"NSMicrophoneUsageDescription" = "是否允许访问麦克风";
+"NSMotionUsageDescription" = "是否允许访问运动与健康数据";
+"NSPhotoLibraryUsageDescription" = "是否允许访问相册";
+"NSSpeechRecognitionUsageDescription" = "是否允许语音识别";

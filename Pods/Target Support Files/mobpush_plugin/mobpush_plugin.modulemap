@@ -1,0 +1,6 @@
+framework module mobpush_plugin {
+  umbrella header "mobpush_plugin-umbrella.h"
+
+  export *
+  module * { export * }
+}

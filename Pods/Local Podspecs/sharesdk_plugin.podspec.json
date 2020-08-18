@@ -1,0 +1,42 @@
+{
+  "name": "sharesdk_plugin",
+  "version": "1.1.0",
+  "summary": "Flutter plugin for ShareSDK.",
+  "description": "ShareSDK is the most comprehensive Social SDK in the world,which share easily with 40+ platforms.",
+  "homepage": "http://www.mob.com/mobService/sharesdk",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Mob": "mobproduct@mob.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "mob_sharesdk": [
+
+    ],
+    "mob_sharesdk/ShareSDKExtension": [
+
+    ],
+    "mob_sharesdk/ShareSDKUI": [
+
+    ],
+    "mob_sharesdk/ShareSDKPlatforms/QQ": [
+
+    ],
+    "mob_sharesdk/ShareSDKPlatforms/WeChat_Lite": [
+
+    ]
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "8.0"
+  }
+}
