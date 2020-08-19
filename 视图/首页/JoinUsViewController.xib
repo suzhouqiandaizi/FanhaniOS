@@ -30,7 +30,7 @@
                     <rect key="frame" x="0.0" y="77" width="87" height="128"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="joinus_bg" translatesAutoresizingMaskIntoConstraints="NO" id="sVF-ro-oRF">
+                        <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="joinus_bg" translatesAutoresizingMaskIntoConstraints="NO" id="sVF-ro-oRF">
                             <rect key="frame" x="0.0" y="0.0" width="87" height="128"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
@@ -42,6 +42,6 @@
         </view>
     </objects>
     <resources>
-        <image name="joinus_bg" width="2160.5" height="4410.5"/>
+        <image name="joinus_bg" width="375" height="765.5"/>
     </resources>
 </document>

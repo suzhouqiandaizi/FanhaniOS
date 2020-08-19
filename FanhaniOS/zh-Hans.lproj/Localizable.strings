@@ -160,3 +160,8 @@
 "jumpButton" = "跳过";
 "StartExperiencingButton" = "开始体验";
 "joinUsTitle" = "加入我们";
+"detailedStatement" = "明细账单";
+"dailyStatement" = "日结账单";
+"joinusSaveImage" = "保存图片到相册";
+"joinusSaveImageSuccess" = "已保存到系统相册";
+"joinusSaveImageFail" = "保存失败";

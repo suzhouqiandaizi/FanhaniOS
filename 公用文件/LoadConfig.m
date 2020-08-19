@@ -97,7 +97,9 @@
         for (id c in cookieArr){
             if ([c isKindOfClass:[NSHTTPCookie class]]){
                 cookie=(NSHTTPCookie *)c;
-                [mutArr addObject:[NSDictionary dictionaryWithObjectsAndKeys:cookie.name, @"name",cookie.value, @"value", nil]];
+                if ([cookie.name isEqualToString:@"gsessionid"] || [cookie.name isEqualToString:@"lang"]) {
+                    [mutArr addObject:[NSDictionary dictionaryWithObjectsAndKeys:cookie.name, @"name",cookie.value, @"value", nil]];
+                }
             }
         }
          if ([NSJSONSerialization isValidJSONObject:mutArr]) {

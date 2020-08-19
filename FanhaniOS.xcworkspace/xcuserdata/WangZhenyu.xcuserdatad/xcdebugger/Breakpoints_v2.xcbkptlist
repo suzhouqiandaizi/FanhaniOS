@@ -83,17 +83,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D5912D7A-53BE-421D-BEE0-37C111283330"
+            uuid = "A2EF8181-5A67-4D6D-B06A-4C382EFBFB6F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x516c;&#x7528;&#x6587;&#x4ef6;/LoadConfig.m"
+            filePath = "&#x89c6;&#x56fe;/&#x767b;&#x5f55;&#x6ce8;&#x518c;/ForgetPasswordViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
-            landmarkName = "-loadUserInfo:withUserLoginRecord:"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "-codePress"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A2EF8181-5A67-4D6D-B06A-4C382EFBFB6F - 109e7e1590ab5039"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ForgetPasswordViewController codePress]"
+                  moduleName = "FanhanTech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/WangZhenyu/Desktop/Program/cland-flutter-dev/FanhaniOS/%E8%A7%86%E5%9B%BE/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C/ForgetPasswordViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "898">
+               </Location>
+               <Location
+                  uuid = "A2EF8181-5A67-4D6D-B06A-4C382EFBFB6F - 44c1a736fb0a82ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__41-[ForgetPasswordViewController codePress]_block_invoke"
+                  moduleName = "FanhanTech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/WangZhenyu/Desktop/Program/cland-flutter-dev/FanhaniOS/%E8%A7%86%E5%9B%BE/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C/ForgetPasswordViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

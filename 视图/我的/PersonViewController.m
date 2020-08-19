@@ -200,7 +200,7 @@
             self.coinLabel.text = [NSString stringWithFormat:@"%ld个", (long)[[[responseObject objectForKey:@"data"] objectForKey:@"balance"] integerValue]];
             self.coinLabel = changeLabelAttribute(self.coinLabel, self.coinLabel.text.length - 1, 0, TextColor, TextColor, 14.0, YES);
         }else{
-            self.coinLabel.text = [NSString stringWithFormat:@"%ld", [[[responseObject objectForKey:@"data"] objectForKey:@"balance"] integerValue]];
+            self.coinLabel.text = [NSString stringWithFormat:@"%ld", (long)[[[responseObject objectForKey:@"data"] objectForKey:@"balance"] integerValue]];
         }
         NSLog(@"%@", currentLocaleLanuage());
     } failure:^(NSString *error, NSInteger code) {
@@ -270,10 +270,10 @@
 }
 
 - (IBAction)mingxiPress:(id)sender {
-//    CoinDetailViewController *viewCon = [[CoinDetailViewController alloc] initWithNibName:@"CoinDetailViewController" bundle:nil];
-//    [self.navigationController pushViewController:viewCon animated:YES];
+    CoinDetailViewController *viewCon = [[CoinDetailViewController alloc] initWithNibName:@"CoinDetailViewController" bundle:nil];
+    [self.navigationController pushViewController:viewCon animated:YES];
     [MobClick event:@"WD_wallet_mingxi"];
-    [[ActionPushFlutter sharePushFlutter] goFlutterPage:@"IncomePage" withArguments:nil];
+//    [[ActionPushFlutter sharePushFlutter] goFlutterPage:@"IncomePage" withArguments:nil];
 }
 
 

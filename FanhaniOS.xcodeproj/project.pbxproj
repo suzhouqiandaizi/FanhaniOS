@@ -47,6 +47,15 @@
 		4D48969124EBC75300DE09A3 /* JoinUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48968F24EBC75300DE09A3 /* JoinUsViewController.m */; };
 		4D48969224EBC75300DE09A3 /* JoinUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D48969024EBC75300DE09A3 /* JoinUsViewController.xib */; };
 		4D48969424EBD78C00DE09A3 /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48969324EBD78B00DE09A3 /* UMCommon.framework */; };
+		4D4896A424ECCA9D00DE09A3 /* UIView+SGFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48969824ECCA9D00DE09A3 /* UIView+SGFrame.m */; };
+		4D4896A524ECCA9D00DE09A3 /* SGPageContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48969A24ECCA9D00DE09A3 /* SGPageContentScrollView.m */; };
+		4D4896A624ECCA9D00DE09A3 /* SGPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48969B24ECCA9D00DE09A3 /* SGPageContentView.m */; };
+		4D4896A724ECCA9D00DE09A3 /* SGPageTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48969F24ECCA9D00DE09A3 /* SGPageTitleButton.m */; };
+		4D4896A824ECCA9D00DE09A3 /* SGPageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4896A024ECCA9D00DE09A3 /* SGPageTitleView.m */; };
+		4D4896AC24ECCB0600DE09A3 /* CoinTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4896AA24ECCB0600DE09A3 /* CoinTableViewController.m */; };
+		4D4896AD24ECCB0600DE09A3 /* CoinTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4896AB24ECCB0600DE09A3 /* CoinTableViewController.xib */; };
+		4D4896B124ECCB5400DE09A3 /* CoinTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4896AF24ECCB5400DE09A3 /* CoinTableViewCell.m */; };
+		4D4896B224ECCB5400DE09A3 /* CoinTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4896B024ECCB5400DE09A3 /* CoinTableViewCell.xib */; };
 		4D65841924CFBB7900F28EE8 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D65840324CFBB7900F28EE8 /* AFURLResponseSerialization.m */; };
 		4D65841A24CFBB7900F28EE8 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D65840424CFBB7900F28EE8 /* AFHTTPSessionManager.m */; };
 		4D65841B24CFBB7900F28EE8 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D65840624CFBB7900F28EE8 /* AFURLSessionManager.m */; };
@@ -389,6 +398,23 @@
 		4D48968F24EBC75300DE09A3 /* JoinUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoinUsViewController.m; sourceTree = "<group>"; };
 		4D48969024EBC75300DE09A3 /* JoinUsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JoinUsViewController.xib; sourceTree = "<group>"; };
 		4D48969324EBD78B00DE09A3 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		4D48969724ECCA9D00DE09A3 /* UIView+SGFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SGFrame.h"; sourceTree = "<group>"; };
+		4D48969824ECCA9D00DE09A3 /* UIView+SGFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SGFrame.m"; sourceTree = "<group>"; };
+		4D48969A24ECCA9D00DE09A3 /* SGPageContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageContentScrollView.m; sourceTree = "<group>"; };
+		4D48969B24ECCA9D00DE09A3 /* SGPageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageContentView.m; sourceTree = "<group>"; };
+		4D48969C24ECCA9D00DE09A3 /* SGPageContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageContentScrollView.h; sourceTree = "<group>"; };
+		4D48969D24ECCA9D00DE09A3 /* SGPageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageContentView.h; sourceTree = "<group>"; };
+		4D48969F24ECCA9D00DE09A3 /* SGPageTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageTitleButton.m; sourceTree = "<group>"; };
+		4D4896A024ECCA9D00DE09A3 /* SGPageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageTitleView.m; sourceTree = "<group>"; };
+		4D4896A124ECCA9D00DE09A3 /* SGPageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageTitleView.h; sourceTree = "<group>"; };
+		4D4896A224ECCA9D00DE09A3 /* SGPageTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageTitleButton.h; sourceTree = "<group>"; };
+		4D4896A324ECCA9D00DE09A3 /* SGPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPagingView.h; sourceTree = "<group>"; };
+		4D4896A924ECCB0600DE09A3 /* CoinTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoinTableViewController.h; sourceTree = "<group>"; };
+		4D4896AA24ECCB0600DE09A3 /* CoinTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinTableViewController.m; sourceTree = "<group>"; };
+		4D4896AB24ECCB0600DE09A3 /* CoinTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinTableViewController.xib; sourceTree = "<group>"; };
+		4D4896AE24ECCB5400DE09A3 /* CoinTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoinTableViewCell.h; sourceTree = "<group>"; };
+		4D4896AF24ECCB5400DE09A3 /* CoinTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinTableViewCell.m; sourceTree = "<group>"; };
+		4D4896B024ECCB5400DE09A3 /* CoinTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinTableViewCell.xib; sourceTree = "<group>"; };
 		4D6583FF24CFBB7900F28EE8 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
 		4D65840024CFBB7900F28EE8 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		4D65840124CFBB7900F28EE8 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
@@ -1067,9 +1093,52 @@
 			path = "签到";
 			sourceTree = "<group>";
 		};
+		4D48969524ECCA9D00DE09A3 /* SGPagingView */ = {
+			isa = PBXGroup;
+			children = (
+				4D48969624ECCA9D00DE09A3 /* Category */,
+				4D48969924ECCA9D00DE09A3 /* SGPageContent */,
+				4D48969E24ECCA9D00DE09A3 /* SGPageTitle */,
+				4D4896A324ECCA9D00DE09A3 /* SGPagingView.h */,
+			);
+			path = SGPagingView;
+			sourceTree = "<group>";
+		};
+		4D48969624ECCA9D00DE09A3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4D48969724ECCA9D00DE09A3 /* UIView+SGFrame.h */,
+				4D48969824ECCA9D00DE09A3 /* UIView+SGFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4D48969924ECCA9D00DE09A3 /* SGPageContent */ = {
+			isa = PBXGroup;
+			children = (
+				4D48969A24ECCA9D00DE09A3 /* SGPageContentScrollView.m */,
+				4D48969B24ECCA9D00DE09A3 /* SGPageContentView.m */,
+				4D48969C24ECCA9D00DE09A3 /* SGPageContentScrollView.h */,
+				4D48969D24ECCA9D00DE09A3 /* SGPageContentView.h */,
+			);
+			path = SGPageContent;
+			sourceTree = "<group>";
+		};
+		4D48969E24ECCA9D00DE09A3 /* SGPageTitle */ = {
+			isa = PBXGroup;
+			children = (
+				4D48969F24ECCA9D00DE09A3 /* SGPageTitleButton.m */,
+				4D4896A024ECCA9D00DE09A3 /* SGPageTitleView.m */,
+				4D4896A124ECCA9D00DE09A3 /* SGPageTitleView.h */,
+				4D4896A224ECCA9D00DE09A3 /* SGPageTitleButton.h */,
+			);
+			path = SGPageTitle;
+			sourceTree = "<group>";
+		};
 		4D6583FD24CFBB7900F28EE8 /* 第三方库 */ = {
 			isa = PBXGroup;
 			children = (
+				4D48969524ECCA9D00DE09A3 /* SGPagingView */,
 				4D48969324EBD78B00DE09A3 /* UMCommon.framework */,
 				4D97DFF324E3894400A87BE5 /* YBAttributeTextTapAction */,
 				4D97DFD224E12DB300A87BE5 /* SlimeRefresh */,
@@ -1483,6 +1552,12 @@
 				4D88C2D424EA8483002E9D2D /* CoinDetailViewController.h */,
 				4D88C2D524EA8483002E9D2D /* CoinDetailViewController.m */,
 				4D88C2D624EA8483002E9D2D /* CoinDetailViewController.xib */,
+				4D4896A924ECCB0600DE09A3 /* CoinTableViewController.h */,
+				4D4896AA24ECCB0600DE09A3 /* CoinTableViewController.m */,
+				4D4896AB24ECCB0600DE09A3 /* CoinTableViewController.xib */,
+				4D4896AE24ECCB5400DE09A3 /* CoinTableViewCell.h */,
+				4D4896AF24ECCB5400DE09A3 /* CoinTableViewCell.m */,
+				4D4896B024ECCB5400DE09A3 /* CoinTableViewCell.xib */,
 			);
 			path = "明细";
 			sourceTree = "<group>";
@@ -2122,6 +2197,7 @@
 				4DCDE09124DA4CBE004D5997 /* LoginRecordView.xib in Resources */,
 				4DF89A6224D2584F0090D882 /* img_2.png in Resources */,
 				4DF89C2224D3B43D0090D882 /* RegisterUserInfoViewController.xib in Resources */,
+				4D4896B224ECCB5400DE09A3 /* CoinTableViewCell.xib in Resources */,
 				4D88BEFB24E5299F002E9D2D /* shareicon.png in Resources */,
 				4DF89BE324D28F010090D882 /* taxRule.pdf in Resources */,
 				4DF89BC824D288A10090D882 /* CustomSuccessAlertView.xib in Resources */,
@@ -2160,6 +2236,7 @@
 				4D88C2D224EA6B8B002E9D2D /* DituiViewController.xib in Resources */,
 				4D839F2B24D93534007989E6 /* HomeHeaderView.xib in Resources */,
 				4D88BEF224E51EED002E9D2D /* ShareView.xib in Resources */,
+				4D4896AD24ECCB0600DE09A3 /* CoinTableViewController.xib in Resources */,
 				4DF89C1124D2BFCA0090D882 /* WebShowViewController.xib in Resources */,
 				4DF89BC924D288A10090D882 /* CustomInfoAlertView.xib in Resources */,
 				4DF89B0F24D258860090D882 /* .gitkeep in Resources */,
@@ -2283,6 +2360,7 @@
 				4D6584BE24D175B200F28EE8 /* IQUIScrollView+Additions.m in Sources */,
 				4D89518024DA7AA700C07485 /* NSObject+MJProperty.m in Sources */,
 				4D88C2D124EA6B8B002E9D2D /* DituiViewController.m in Sources */,
+				4D4896A424ECCA9D00DE09A3 /* UIView+SGFrame.m in Sources */,
 				4DCDE09524DA4D5C004D5997 /* LoginRecordTableViewCell.m in Sources */,
 				4DF89B5724D265220090D882 /* UIColor+Hexadecimal.m in Sources */,
 				4DF89B6124D2653F0090D882 /* CustomNavigationCoutroller.m in Sources */,
@@ -2302,6 +2380,7 @@
 				4D839F7424D93DEB007989E6 /* SDWebImagePrefetcher.m in Sources */,
 				4DF89B1724D258860090D882 /* LOTAsset.m in Sources */,
 				4D839F7024D93DEB007989E6 /* SDWebImageDownloader.m in Sources */,
+				4D4896A524ECCA9D00DE09A3 /* SGPageContentScrollView.m in Sources */,
 				4DF89B5224D265210090D882 /* WZYLabel.m in Sources */,
 				4D01B12424C71FE100AD6275 /* ViewController.m in Sources */,
 				4DF89B0B24D258860090D882 /* UIBezierPath.m in Sources */,
@@ -2310,6 +2389,7 @@
 				4D6584B524D175B200F28EE8 /* IQTitleBarButtonItem.m in Sources */,
 				4DD4901924D948800071CA00 /* TaskClassificationViewController.m in Sources */,
 				4DF89C1824D2C5850090D882 /* NJKWebViewProgressView.m in Sources */,
+				4D4896A624ECCA9D00DE09A3 /* SGPageContentView.m in Sources */,
 				4DF89BAE24D27AA50090D882 /* UIViewController+ShowAlert.m in Sources */,
 				4D839F2324D931CB007989E6 /* MJRefreshBackFooter.m in Sources */,
 				4D6584C124D175B200F28EE8 /* IQKeyboardReturnKeyHandler.m in Sources */,
@@ -2318,6 +2398,7 @@
 				4DF89B0524D258860090D882 /* LOTRoundedRectAnimator.m in Sources */,
 				4DF89B1A24D258860090D882 /* LOTShapeCircle.m in Sources */,
 				4D28D43424E3F15700F773D2 /* AboutViewController.m in Sources */,
+				4D4896AC24ECCB0600DE09A3 /* CoinTableViewController.m in Sources */,
 				4D28D42C24E3D39000F773D2 /* MessageTableViewCell.m in Sources */,
 				4DD4901E24D952700071CA00 /* FTPopOverMenu.m in Sources */,
 				4DF89B1D24D258860090D882 /* LOTShapeFill.m in Sources */,
@@ -2325,6 +2406,7 @@
 				4DF89AFA24D258850090D882 /* LOTSizeInterpolator.m in Sources */,
 				4D839F1D24D931CB007989E6 /* MJRefreshNormalTrailer.m in Sources */,
 				4D839F1E24D931CB007989E6 /* MJRefreshNormalHeader.m in Sources */,
+				4D4896A824ECCA9D00DE09A3 /* SGPageTitleView.m in Sources */,
 				4DF89B2E24D258860090D882 /* LOTAnimatedSwitch.m in Sources */,
 				4D89518124DA7AA700C07485 /* NSObject+MJClass.m in Sources */,
 				4D839ECD24D90339007989E6 /* PersonViewController.m in Sources */,
@@ -2349,10 +2431,12 @@
 				4DF89B2324D258860090D882 /* UIColor+Expanded.m in Sources */,
 				4D839F6E24D93DEB007989E6 /* SDWebImageDecoder.m in Sources */,
 				4DF89BAD24D27AA50090D882 /* MBProgressHUD.m in Sources */,
+				4D4896A724ECCA9D00DE09A3 /* SGPageTitleButton.m in Sources */,
 				4D97DFDE24E12DB300A87BE5 /* SRSlimeView.m in Sources */,
 				4D28D42724E3D27700F773D2 /* MessageViewController.m in Sources */,
 				4D839F3D24D93C7B007989E6 /* UIView+SDExtension.m in Sources */,
 				4DF89AFE24D258860090D882 /* LOTArrayInterpolator.m in Sources */,
+				4D4896B124ECCB5400DE09A3 /* CoinTableViewCell.m in Sources */,
 				4DF89B1424D258860090D882 /* LOTShapeStar.m in Sources */,
 				4D839F7724D93DEB007989E6 /* NSData+ImageContentType.m in Sources */,
 				4DF89BCE24D288A10090D882 /* CustomTextViewAlertView.m in Sources */,

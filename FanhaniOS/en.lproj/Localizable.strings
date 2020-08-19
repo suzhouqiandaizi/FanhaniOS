@@ -159,3 +159,8 @@ Thank you for using the funwork app! We attach great importance to your personal
 "jumpButton" = "jump";
 "StartExperiencingButton" = "experiencing";
 "joinUsTitle" = "Join Us";
+"detailedStatement" = "Detailed";
+"dailyStatement" = "Daily";
+"joinusSaveImage" = "Save pictures to album";
+"joinusSaveImageSuccess" = "Saved successfully";
+"joinusSaveImageFail" = "Save failed";

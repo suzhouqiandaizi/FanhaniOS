@@ -41,14 +41,14 @@
 - (IBAction)twoPress {
     WebShowViewController *viewCon = [[WebShowViewController alloc] initWithNibName:@"WebShowViewController" bundle:nil];
     viewCon.whiteBackBtn = YES;
-    viewCon.urlStr = [NSString stringWithFormat:@"%@/agreement?user=worker", HOSTURL];
+    viewCon.urlStr = [NSString stringWithFormat:@"%@/agreement/worker", HOSTURL];
     [self.navigationController pushViewController:viewCon animated:YES];
 }
 
 - (IBAction)threePress {
     WebShowViewController *viewCon = [[WebShowViewController alloc] initWithNibName:@"WebShowViewController" bundle:nil];
     viewCon.whiteBackBtn = YES;
-    viewCon.urlStr = [NSString stringWithFormat:@"%@/privacy", HOSTURL];
+    viewCon.urlStr = [NSString stringWithFormat:@"%@/agreement/privacy", HOSTURL];
     [self.navigationController pushViewController:viewCon animated:YES];
 }
 

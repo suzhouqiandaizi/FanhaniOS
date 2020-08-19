@@ -16,3 +16,4 @@
 "NSMotionUsageDescription" = "是否允许访问运动与健康数据";
 "NSPhotoLibraryUsageDescription" = "是否允许访问相册";
 "NSSpeechRecognitionUsageDescription" = "是否允许语音识别";
+"NSPhotoLibraryAddUsageDescription" = "请允许保存图片到相册";

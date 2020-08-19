@@ -8,6 +8,7 @@
 
 #import "JoinUsViewController.h"
 #import "UIColor+Hexadecimal.h"
+#import "UIActionSheet+Blocks.h"
 
 @interface JoinUsViewController ()
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
@@ -29,17 +30,32 @@
     [self.imageView setFrame:CGRectMake(0, 0, SCREEN_WIDTH_DEVICE, imageHeight)];
     self.scrollView.alwaysBounceVertical = YES;
     [self.scrollView setContentSize:CGSizeMake(SCREEN_WIDTH_DEVICE, imageHeight)];
+    
+    UILongPressGestureRecognizer *longTap = [[UILongPressGestureRecognizer alloc]initWithTarget:self action:@selector(imglongTapClick:)];
+    [self.imageView addGestureRecognizer:longTap];
     // Do any additional setup after loading the view from its nib.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+ -(void)imglongTapClick:(UILongPressGestureRecognizer*)gesture{
+     if(gesture.state==UIGestureRecognizerStateBegan){
+         [UIActionSheet showInView:self.view withTitle:nil cancelButtonTitle:NSLocalizedString(@"cancelButton", nil) destructiveButtonTitle:nil otherButtonTitles:@[NSLocalizedString(@"joinusSaveImage", nil)] tapBlock:^(UIActionSheet * _Nonnull actionSheet, NSInteger buttonIndex) {
+             if (buttonIndex==0) {
+                 UIImageView *currentImageView = (UIImageView *)gesture.view;
+                 UIImageWriteToSavedPhotosAlbum(currentImageView.image, self, @selector(image:didFinishSavingWithError:contextInfo:), (__bridge void *)self);
+             }
+         }];
+     }
 }
-*/
+
+
+- (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo
+{
+    if (!error) {
+        [self showHUDAlert:NSLocalizedString(@"joinusSaveImageSuccess", nil)];
+    }else{
+        [self showHUDAlert:NSLocalizedString(@"joinusSaveImageFail", nil)];
+    }
+}
 
 @end

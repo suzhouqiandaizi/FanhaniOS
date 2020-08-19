@@ -16,4 +16,4 @@
 "NSMotionUsageDescription" = "Can I use the motion please?";
 "NSPhotoLibraryUsageDescription" = "Can I use the PhotoLibrary please to select image upload?";
 "NSSpeechRecognitionUsageDescription" = "Can I use the speech recognition please?";
-
+"NSPhotoLibraryAddUsageDescription" = "Please allow to save pictures to album.";

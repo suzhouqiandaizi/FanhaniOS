@@ -57,19 +57,19 @@
 }
 
 - (void)initFlutterPage{
-    AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    FlutterMethodChannel * methodChannel = [FlutterMethodChannel methodChannelWithName:@"RouteChannel" binaryMessenger:del.flutterViewCon];
-    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
-    [dic setObject:@"BlankPage" forKey:@"pageName"];
-    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:0 error:NULL];
-    NSString *jsonStr = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-    [methodChannel invokeMethod:@"" arguments:[NSDictionary dictionaryWithObject:jsonStr forKey:@"routeParams"]];
-    [methodChannel setMethodCallHandler:^(FlutterMethodCall * _Nonnull call, FlutterResult  _Nonnull result) {
-            if ([call.method isEqualToString:@"popPage"]) {
-                [del.flutterViewCon.navigationController popViewControllerAnimated:NO];
-            }
-    }];
-    del.flutterViewCon.fd_prefersNavigationBarHidden = YES;
+//    AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+//    FlutterMethodChannel * methodChannel = [FlutterMethodChannel methodChannelWithName:@"RouteChannel" binaryMessenger:del.flutterViewCon];
+//    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+//    [dic setObject:@"BlankPage" forKey:@"pageName"];
+//    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:0 error:NULL];
+//    NSString *jsonStr = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+//    [methodChannel invokeMethod:@"" arguments:[NSDictionary dictionaryWithObject:jsonStr forKey:@"routeParams"]];
+//    [methodChannel setMethodCallHandler:^(FlutterMethodCall * _Nonnull call, FlutterResult  _Nonnull result) {
+//            if ([call.method isEqualToString:@"popPage"]) {
+//                [del.flutterViewCon.navigationController popViewControllerAnimated:NO];
+//            }
+//    }];
+//    del.flutterViewCon.fd_prefersNavigationBarHidden = YES;
 }
 
 - (void)initMessage{
